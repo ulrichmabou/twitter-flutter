@@ -1,5 +1,5 @@
 import 'package:twitter_api/twitter_api.dart';
-import 'package:twitterflutter/utilities/secrets.dart';
+import 'package:twitterflutter/secrets.dart';
 import 'dart:convert';
 
 Future main() async {
@@ -17,7 +17,7 @@ Future main() async {
     "statuses/user_timeline.json",
     options: {
 //      "user_id": "19025957",
-      "screen_name": "ChelseaFC",
+      "screen_name": "ulrich_mabou",
       "count": "1",
       "trim_user": "true",
       "tweet_mode": "extended", // Used to prevent truncating tweets
